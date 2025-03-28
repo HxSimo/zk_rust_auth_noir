@@ -1,0 +1,8 @@
+[package]
+name = "noir_zk_auth"
+version = "0.1.0"
+type = "bin"
+
+[dependencies]
+noir_bigcurve = { path = "../../noir_bigcurve" }
+bignum = {tag = "v0.6.0", git = "https://github.com/noir-lang/noir-bignum"}
